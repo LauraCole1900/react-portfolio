@@ -1,14 +1,28 @@
-import React from "react";
+import React, { Component } from "react";
+import ProjectCard from "../project";
+import projects from "./projects.json";
 
-function Portfolio() {
-  return (
-    <div>
-      <h1>My Portfolio</h1>
-      <p>
-        My Portfolio
-      </p>
-    </div>
-  );
+class Portfolio extends Component {
+  state = { projects };
+
+  render() {
+    return (
+      <>
+        <h1>Portfolio</h1>
+        {this.state.projects.map(project => (
+          <ProjectCard
+            id={project.id}
+            key={project.id}
+            name={project.name}
+            image={project.image}
+            description={project.description}
+            repo={project.repo}
+            deployed={project.deployed}
+          />
+        ))}
+      </>
+    );
+  }
 }
 
 export default Portfolio;
