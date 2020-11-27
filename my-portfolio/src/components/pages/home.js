@@ -1,12 +1,10 @@
 import React from "react";
+import Hero from "../hero";
 
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Home page
-      </p>
+      <Hero />
     </div>
   );
 }
