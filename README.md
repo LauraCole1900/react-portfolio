@@ -16,7 +16,7 @@
 
 ## Description
 
-This application uses React to build a website about me.
+This application uses React to build my portfolio website.
 
 ## Links
 
@@ -24,14 +24,17 @@ This application uses React to build a website about me.
 
 ## Screenshots
 
-Directory with default sort (by employee ID):
-![Default sort screencap:](src/assets/default-sort-screencap.png)
+Landing page:
+![Landing page](src/assets/images/rp-landing-page-screenshot.png)
 
-Directory sorted by department:
-![Department sort screencap](src/assets/department-sort-screencap.png)
+"About" page:
+![About page](src/assets/images/rp-about-page-screenshot.png)
 
-Searching by last name:
-![Search results on last name](src/assets/search-by-last-name.png)
+Portfolio page:
+![Portfolio page](src/assets/images/rp-portfolio-page-screenshot.png)
+
+"Contact Me" page:
+![Contact Me page](src/assets/images/rp-contact-page-screenshot.png)
 
 ## Installation Instructions
 
