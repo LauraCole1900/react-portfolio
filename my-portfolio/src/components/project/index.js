@@ -1,4 +1,26 @@
-import React, { Component } from "react";
+import React from "react";
+import Card from "react-bootstrap/Card"
+import Button from "react-bootstrap/Button"
+import "./style.css";
 
 // Flip cards?
 // https://codepen.io/danishyma/pen/dyXEjev
+
+
+function ProjectCard(props) {
+  return (
+<Card style={{ width: '18rem' }}>
+  <Card.Header><h3>{props.name}</h3></Card.Header>
+  <Card.Img src={props.image} />
+  <Card.Body>
+    <Card.Text>
+      {props.description}
+    </Card.Text>
+    <Button href={props.deployed}>{props.name}</Button>
+    <Button href={props.repo}>{props.name} GitHub Repo</Button>
+  </Card.Body>
+</Card>
+  );
+}
+
+export default ProjectCard;
