@@ -11,28 +11,24 @@ const Navigation = () => {
 
   return (
     <Navbar expand="md" className="navbar">
-      <Nav className="navbar">
-      <Nav.Item>
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          Home
-        </Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-          About
-        </Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-          Portfolio
-        </Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-          Contact Me
-        </Link>
-      </Nav.Item>
-      </Nav>
+      <Navbar.Brand href="#">Laura Cole</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="navbar">
+          <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            Home
+          </Link>
+          <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+            About
+          </Link>
+          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+            Portfolio
+          </Link>
+          <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+            Contact Me
+          </Link>
+        </Nav>
+      </Navbar.Collapse>
     </Navbar >
   )
 }
