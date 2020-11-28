@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import "./style.css";
 
 
 // https://codepen.io/BrunoIF/pen/oNjNepa - transparent React navbar
@@ -14,7 +15,7 @@ const Navigation = () => {
       <Navbar.Brand href="#">Laura Cole</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="navbar">
+        <Nav>
           <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
             Home
           </Link>

@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Container from "react-bootstrap/Container";
 import Navigation from "./components/navbar";
 import Home from "./components/pages/home.js";
 import About from "./components/pages/about.js";
@@ -12,10 +13,12 @@ function App() {
     <Router>
       <div>
         <Navigation />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Container fluid>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
+        </Container>
         <Footer />
       </div>
     </Router>

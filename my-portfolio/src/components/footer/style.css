@@ -1,5 +1,8 @@
-footer {
-  position: absolute;
+.footer {
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
+  background-color: #0d4b16;
+  color: #d5d5d5;
 }

@@ -1,0 +1,30 @@
+.project-card {
+  background-color: #d5d5d5;
+  color: #0d4b16;
+  display: inline-table;
+  width: 325px;
+  border: 3px solid #0d4b16;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1em;
+}
+
+.card-title {
+  background-color: #0d4b16;
+  color: #d5d5d5;
+  border-radius: 10px 10px 0 0;
+  padding: 0.5em 0 1em 0;
+  position: relative;
+  top: -3px;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: #d5d5d5;
+  color: #0d4b16;
+  border: 3px solid #0d4b16;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
