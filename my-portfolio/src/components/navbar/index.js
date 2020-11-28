@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+
 
 // https://codepen.io/BrunoIF/pen/oNjNepa - transparent React navbar
 
@@ -8,7 +10,8 @@ const Navigation = () => {
   const location = useLocation();
 
   return (
-    <Nav defaultActiveKey="/" className="navbar">
+    <Navbar expand="md" className="navbar">
+      <Nav className="navbar">
       <Nav.Item>
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
@@ -29,7 +32,8 @@ const Navigation = () => {
           Contact Me
         </Link>
       </Nav.Item>
-    </Nav >
+      </Nav>
+    </Navbar >
   )
 }
 

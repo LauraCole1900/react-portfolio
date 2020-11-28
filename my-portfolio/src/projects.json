@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Weather Dashboard",
-    "image": "./assets/images/taco-party-homepage-square.png",
+    "image": "./assets/images/dashboard-searched.png",
     "description": "The Weather Dashboard uses jQuery and the OpenWeather API to provide weather information. The user types the city about which they're wanting weather information into the 'search' function, and the dashboard then provides current weather conditions and a five-day forecast for that city. While subsequent searches will replace the five-day forecast, the current conditions will still be visible at the bottom of the page, and all searched cities appear in the 'history' section for ease of repeating searches.",
     "repo": "https://github.com/LauraCole1900/apiWeatherDashboard",
     "deployed": "https://lauracole1900.github.io/apiWeatherDashboard/"

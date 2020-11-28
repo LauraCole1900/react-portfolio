@@ -1,4 +1,6 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
 import "./style.css";
@@ -9,17 +11,21 @@ import "./style.css";
 
 function ProjectCard(props) {
   return (
-    <Card style={{ width: '18rem', display: "inline" }}>
-      <Card.Header><h3>{props.name}</h3></Card.Header>
-      <Card.Img src={props.image} />
-      <Card.Body>
-        <Card.Text>
-          {props.description}
-        </Card.Text>
-        <Button href={props.deployed} target="_blank">{props.name}</Button>
-        <Button href={props.repo} target="_blank">{props.name} GitHub Repo</Button>
-      </Card.Body>
-    </Card>
+    <Container fluid>
+      <Row>
+        <Card className="project-card" style={{ width: '18em' }}>
+          <Card.Header><h3>{props.name}</h3></Card.Header>
+          <Card.Img src={props.image} />
+          <Card.Body>
+            <Card.Text>
+              {props.description}
+            </Card.Text>
+            <Button href={props.deployed} target="_blank">{props.name}</Button>
+            <Button href={props.repo} target="_blank">{props.name} GitHub Repo</Button>
+          </Card.Body>
+        </Card>
+      </Row>
+    </Container>
   );
 }
 
