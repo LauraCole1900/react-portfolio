@@ -1,29 +1,36 @@
+h2 {
+  font-size: 3em;
+  font-weight: lighter;
+}
+
 .project-card {
-  background-color: #d5d5d5;
-  color: #0d4b16;
+  background-color: black;
+  color: #d5d5d5;
   display: inline-table;
   max-width: 325px;
-  border: 3px solid #0d4b16;
+  border: 3px solid #031105;
   border-radius: 10px;
   text-align: center;
   margin: 1em;
-  opacity: 0.75;
+  opacity: 0.8;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card-title {
-  background-color: #0d4b16;
+  background-color: #031105;
   color: #d5d5d5;
   border-radius: 10px 10px 0 0;
-  padding: 0.5em 0 1em 0;
+  padding: 20px 0 12px 0;
   position: relative;
   top: -3px;
   vertical-align: middle;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .btn {
   background-color: #d5d5d5;
-  color: #0d4b16;
-  border: 3px solid #0d4b16;
+  color: #031105;
+  border: 3px solid #031105;
   border-radius: 10px;
   text-align: center;
   font-size: 18px;
@@ -38,6 +45,6 @@
 
 .btn:visited {
   background-color: #d5d5d5;
-  color: #0d4b16;
-  border: 3px solid #0d4b16;
+  color: #031105;
+  border: 3px solid #031105;
 }

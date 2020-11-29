@@ -10,7 +10,7 @@ import "./style.css";
 function ProjectCard(props) {
   return (
     <Card className="project-card">
-      <Card.Header className="card-title"><h3>{props.name}</h3></Card.Header>
+      <Card.Header className="card-title"><h2>{props.name}</h2></Card.Header>
       <Card.Img src={props.image} />
       <Card.Body>
         <Card.Text>
