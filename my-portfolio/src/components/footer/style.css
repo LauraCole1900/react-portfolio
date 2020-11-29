@@ -3,6 +3,12 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #0d4b16;
+  background-color: #031105;
   color: #d5d5d5;
+  opacity: 0.7;
+}
+
+.icon {
+  max-width: 25px;
+  margin-top: 1em;
 }
