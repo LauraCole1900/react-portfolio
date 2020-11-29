@@ -1,9 +1,11 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./style.css";
 
 // Animated text code from here: https://codepen.io/tumerorkun/pen/jOOZmWa
 
 const LandingText = () => {
+  const location = useLocation();
   const texts = [
     "LAURA COLE",
     "WEB DEVELOPER",
@@ -72,7 +74,9 @@ const LandingText = () => {
 
   return (
     <div>
-      <Texts className={'texts'} waitbt={50} wait={2000} speed={27} texts={texts} />
+      <Link to="/about" className={location.pathname === "/about" ? "mylogo active" : "mylogo"}>
+        <Texts className={'texts'} waitbt={50} wait={2000} speed={27} texts={texts} />
+      </Link>
     </div>
   )
 };
