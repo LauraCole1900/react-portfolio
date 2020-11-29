@@ -25,16 +25,16 @@ This application uses React to build my portfolio website.
 ## Screenshots
 
 Landing page:
-![Landing page](screenshots/rp-landing-page-screenshot.png)
+![Landing page](assets/rp-landing-page-screenshot.png)
 
 "About" page:
-![About page](screenshots/rp-about-page-screenshot.png)
+![About page](assets/rp-about-page-screenshot.png)
 
 Portfolio page:
-![Portfolio page](screenshots/rp-portfolio-page-screenshot.png)
+![Portfolio page](assets/rp-portfolio-page-screenshot.png)
 
 "Contact Me" page:
-![Contact Me page](screenshots/rp-contact-page-screenshot.png)
+![Contact Me page](assets/rp-contact-page-screenshot.png)
 
 ## Installation Instructions
 
