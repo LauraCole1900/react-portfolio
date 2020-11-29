@@ -3,10 +3,9 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import linkedin from "../../assets/images/linkedin-icon-128px.png";
-import githublt from "../../assets/images/GitHub-Mark-Light-120px-plus.png";
+import linkedin from "../../icons/linkedin-icon-128px.png";
+import githublt from "../../icons/GitHub-Mark-Light-120px-plus.png";
 import "./style.css";
-
 
 const Footer = () => {
   return (

@@ -1,25 +1,17 @@
-.hero {
+.texts {
   font-family: 'Fredericka the Great', cursive;
   text-align: center;
-  color: #ffffff;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  color: #031105;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
   background-position: 30% 20%;
   height: 100%;
   width: 100%;
-}
-
-.hero-text {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 70px;
-}
-
-.text {
   display: inline-block;
-  font-size: 1em;
+  font-size: 7em;
   font-weight: 300;
   margin: 0;
   line-height: 1;
-  color: #ffffff;
+  position: relative;
+  top: 50%;
+  transform: translateY(350%);
 }

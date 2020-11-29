@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Taco Party",
-    "image": "./assets/images/taco-party-homepage-square.png",
+    "image": "../public/images/taco-party-homepage-square.png",
     "description": "Taco Party was built through the collaborative efforts of six students, including me. It uses the Materialize framework for layout and mobile-responsiveness, JavaScript/jQuery, and two third-party APIs to provide a resource for users to plan their taco party. Users can generate random taco- or salsa-based recipes, visit the 'Taco' and 'Salsa' pages to view all available recipes, and visit the 'Beverages' pages to browse recipes for adult mixed drinks.",
     "repo": "https://github.com/LauraCole1900/tacoParty",
     "deployed": "https://lauracole1900.github.io/tacoParty/"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Couch Surfers Travel Blog",
-    "image": "./assets/images/blog-page-with-posts.png",
+    "image": "./images/blog-page-with-posts.png",
     "description": "Couch Surfers Travel Blog was likewise built through the collaborative efforts of six students, including me. It uses jQuery, Express.js, Express Handlebars, Sequelize, and Passport to create a semi-public (all posts visible, but only to those who are signed in) miniblog (500 characters or less) site for travelers to share their tips, tricks, and experiences with each other. It includes a Resources page for those looking for a place to start their adventures.",
     "repo": "https://github.com/LauraCole1900/couchSurfers",
     "deployed": "https://dry-scrubland-38194.herokuapp.com/"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Weather Dashboard",
-    "image": "./assets/images/dashboard-searched.png",
+    "image": "./images/dashboard-searched.png",
     "description": "The Weather Dashboard uses jQuery and the OpenWeather API to provide weather information. The user types the city about which they're wanting weather information into the 'search' function, and the dashboard then provides current weather conditions and a five-day forecast for that city. While subsequent searches will replace the five-day forecast, the current conditions will still be visible at the bottom of the page, and all searched cities appear in the 'history' section for ease of repeating searches.",
     "repo": "https://github.com/LauraCole1900/apiWeatherDashboard",
     "deployed": "https://lauracole1900.github.io/apiWeatherDashboard/"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Team Profile Generator",
-    "image": "./assets/images/team-roster-screencap.png",
+    "image": "./images/team-roster-screencap.png",
     "description": "The Team Profile Generator is a CLI-based application that takes the user through a series of prompts to generate an html document containing names, roles, emails, and ids of all members of a software-development team.",
     "repo": "https://github.com/LauraCole1900/teamProfileGenerator",
     "deployed": "#"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Employee Management System",
-    "image": "./assets/images/ems-walkthrough.gif",
+    "image": "./images/ems-walkthrough.gif",
     "description": "This is a CLI employee management system application using Inquirer.js and MySQL. This system allows the user to add employees, departments, and roles; view employees (all, by department, and by role), departments, and roles; update employee roles; and delete employees.",
     "repo": "https://github.com/LauraCole1900/reactEmployeeDirectory",
     "deployed": "#"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Employee Directory",
-    "image": "./assets/images/employee-directory-screenshot.png",
+    "image": "./images/employee-directory-screenshot.png",
     "description": "This application uses React to generate and manipulate a table of employee information. The user can click on any column header to sort the table by that column, or type into the input box to search for an employee by last name. Reloading the page following a name search will reset the table to show all employees.",
     "repo": "https://github.com/LauraCole1900/reactEmployeeDirectory",
     "deployed": "https://lauracole1900.github.io/reactEmployeeDirectory/"

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navigation from "./components/navbar";
 import Home from "./components/pages/home.js";
+import Landing from "./component/pages/landing.js";
 import About from "./components/pages/about.js";
 import Portfolio from "./components/pages/portfolio.js";
 import Contact from "./components/pages/contact.js";
@@ -15,10 +16,11 @@ function App() {
       <div>
         <Navigation />
         <Container fluid className="mycontainer">
-          <Route exact path="/" component={Home} />
+          <Route exact path="/my-portfolio" component={Landing} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/contact" component={Contact} />
+          <Route path="/" component={Home} />
         </Container>
         <Footer />
       </div>

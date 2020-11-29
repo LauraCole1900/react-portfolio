@@ -1,13 +1,13 @@
 .navbar {
-  background-color: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   width: 100%;
   font-size: 16px;
-  opacity: 0.5;
 }
 
 .navlink {
   padding: 1em;
   color: #d5d5d5;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .navlink:visited {
@@ -17,6 +17,7 @@
 .mylogo { 
   color: #d5d5d5;
   font-size: 24px;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .mylogo:visited {
