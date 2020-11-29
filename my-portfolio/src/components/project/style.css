@@ -7,6 +7,7 @@
   border-radius: 10px;
   text-align: center;
   margin: 1em;
+  opacity: 0.75;
 }
 
 .card-title {
@@ -27,4 +28,16 @@
   text-align: center;
   font-size: 18px;
   margin-bottom: 3px;
+}
+
+.btn:hover {
+  color: #a5a5a5;
+  background-color: #031105;
+  border: 3px solid #a5a5a5;
+}
+
+.btn:visited {
+  background-color: #d5d5d5;
+  color: #0d4b16;
+  border: 3px solid #0d4b16;
 }
