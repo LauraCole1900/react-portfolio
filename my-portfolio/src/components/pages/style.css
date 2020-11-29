@@ -1,7 +1,25 @@
+body {
+  background-image: url("../../assets/images/meeker-n-longs.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .mypic {
-  max-width: 400px;
+  max-width: 300px;
+  padding-right: 1.25em;
 }
 
 .icon {
   max-width: 50px;
+  margin-bottom: 2em;
 }

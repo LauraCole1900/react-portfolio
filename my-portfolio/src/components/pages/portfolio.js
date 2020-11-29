@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "../project";
 import projects from "../../projects.json";
+import "./style.css"
 
 class Portfolio extends Component {
   state = { projects };

@@ -2,7 +2,7 @@
   background-color: #d5d5d5;
   color: #0d4b16;
   display: inline-table;
-  width: 325px;
+  max-width: 325px;
   border: 3px solid #0d4b16;
   border-radius: 10px;
   text-align: center;

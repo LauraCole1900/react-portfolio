@@ -11,21 +11,25 @@ const Navigation = () => {
   const location = useLocation();
 
   return (
-    <Navbar expand="md" className="navbar">
-      <Navbar.Brand href="#">Laura Cole</Navbar.Brand>
+    <Navbar expand="sm" className="navbar">
+      <Navbar.Brand>
+        <Link to="/about" className={location.pathname === "/about" ? "mylogo active" : "mylogo"}>
+          Laura Cole
+        </Link>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+          <Link to="/" className={location.pathname === "/" ? "navlink active" : "navlink"}>
             Home
           </Link>
-          <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+          <Link to="/about" className={location.pathname === "/about" ? "navlink active" : "navlink"}>
             About
           </Link>
-          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "navlink active" : "navlink"}>
             Portfolio
           </Link>
-          <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+          <Link to="/contact" className={location.pathname === "/contact" ? "navlink active" : "navlink"}>
             Contact Me
           </Link>
         </Nav>

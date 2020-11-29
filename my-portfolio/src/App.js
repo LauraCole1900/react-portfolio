@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
@@ -13,7 +14,7 @@ function App() {
     <Router>
       <div>
         <Navigation />
-        <Container fluid>
+        <Container fluid className="mycontainer">
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
