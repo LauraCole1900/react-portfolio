@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 
-// https://codepen.io/tumerorkun/pen/jOOZmWa - animated text
+// Animated text code from here: https://codepen.io/tumerorkun/pen/jOOZmWa
 
-const Hero = () => {
+const LandingText = () => {
   const texts = [
     "LAURA COLE",
     "WEB DEVELOPER",
@@ -77,4 +77,4 @@ const Hero = () => {
   )
 };
 
-export default Hero;
+export default LandingText;

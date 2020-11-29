@@ -20,7 +20,7 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Link to="/" className={location.pathname === "/" ? "navlink active" : "navlink"}>
+          <Link to="/react-portfolio" className={location.pathname === "/" ? "navlink active" : "navlink"}>
             Home
           </Link>
           <Link to="/about" className={location.pathname === "/about" ? "navlink active" : "navlink"}>

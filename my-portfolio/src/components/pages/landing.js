@@ -1,12 +1,12 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Hero from "../hero";
+import LandingText from "../lander";
 import "./style.css"
 
 function Landing() {
   return (
     <Container fluid>
-      <Hero 
+      <LandingText 
         texts={[]}
         wait={3000}
         waitbt={30}
