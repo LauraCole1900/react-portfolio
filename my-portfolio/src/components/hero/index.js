@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Longspic from "../../assets/images/meeker-n-longs.jpg"
+import "./style.css"
 
 // https://codepen.io/ljf4/pen/xVBYgL - animated text over hero
 
@@ -10,7 +10,7 @@ class Hero extends Component {
 
   Hero() {
     this.text.typed({
-      strings: ["WEB DEVELOPER", "MUSICIAN", "MARTIAL ARTIST", "CAT LOVER"],
+      strings: ["LAURA COLE", "WEB DEVELOPER", "MUSICIAN", "MARTIAL ARTIST"],
       typeSpeed: 50,
       backSpeed: 20,
       backDelay: 2000,
@@ -18,6 +18,8 @@ class Hero extends Component {
       loop: true
     });
   };
+
+// setState?
 
   render() {
     return (
