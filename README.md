@@ -25,16 +25,16 @@ This application uses React to build my portfolio website.
 ## Screenshots
 
 Landing page:
-![Landing page](src/assets/images/rp-landing-page-screenshot.png)
+![Landing page](screenshots/rp-landing-page-screenshot.png)
 
 "About" page:
-![About page](src/assets/images/rp-about-page-screenshot.png)
+![About page](screenshots/rp-about-page-screenshot.png)
 
 Portfolio page:
-![Portfolio page](src/assets/images/rp-portfolio-page-screenshot.png)
+![Portfolio page](screenshots/rp-portfolio-page-screenshot.png)
 
 "Contact Me" page:
-![Contact Me page](src/assets/images/rp-contact-page-screenshot.png)
+![Contact Me page](screenshots/rp-contact-page-screenshot.png)
 
 ## Installation Instructions
 
@@ -54,7 +54,7 @@ npm run test
 
 ## Credits
 
-N/A
+Landing page animation code provided by [Orkun Tümer](https://codepen.io/tumerorkun) on CodePen
 
 ## Contributing
 
