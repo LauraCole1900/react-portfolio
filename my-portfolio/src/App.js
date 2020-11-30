@@ -22,6 +22,10 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route path="/" component={Home} />
         </Container>
+        <div>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
         <Footer />
       </div>
     </Router>
