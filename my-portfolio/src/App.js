@@ -17,9 +17,9 @@ function App() {
         <Navigation />
         <Container fluid className="mycontainer">
           <Route exact path="/react-portfolio" component={Landing} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/react-portfolio/about" component={About} />
+          <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+          <Route exact path="/react-portfolio/contact" component={Contact} />
           <Route path="/" component={Home} />
         </Container>
         <div>

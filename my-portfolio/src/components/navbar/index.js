@@ -13,7 +13,7 @@ const Navigation = () => {
   return (
     <Navbar expand="sm" className="navbar">
       <Navbar.Brand>
-        <Link to="/about" className={location.pathname === "/about" ? "mylogo active" : "mylogo"}>
+        <Link to="/react-portfolio/about" className={location.pathname === "/about" ? "mylogo active" : "mylogo"}>
           Laura Cole
         </Link>
       </Navbar.Brand>
@@ -23,13 +23,13 @@ const Navigation = () => {
           <Link to="/react-portfolio" className={location.pathname === "/" ? "navlink active" : "navlink"}>
             Home
           </Link>
-          <Link to="/about" className={location.pathname === "/about" ? "navlink active" : "navlink"}>
+          <Link to="/react-portfolio/about" className={location.pathname === "/about" ? "navlink active" : "navlink"}>
             About
           </Link>
-          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "navlink active" : "navlink"}>
+          <Link to="/react-portfolio/portfolio" className={location.pathname === "/portfolio" ? "navlink active" : "navlink"}>
             Portfolio
           </Link>
-          <Link to="/contact" className={location.pathname === "/contact" ? "navlink active" : "navlink"}>
+          <Link to="/react-portfolio/contact" className={location.pathname === "/contact" ? "navlink active" : "navlink"}>
             Contact Me
           </Link>
         </Nav>
