@@ -28,6 +28,7 @@ class Portfolio extends Component {
                 description={project.description}
                 repo={project.repo}
                 deployed={project.deployed}
+                deploy_button_label={project.deploy_button_label}
               />
             ))}
           </Col>
