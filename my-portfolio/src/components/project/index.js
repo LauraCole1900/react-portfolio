@@ -11,7 +11,7 @@ function ProjectCard(props) {
   return (
     <Card className="project-card">
       <Card.Header className="card-title"><h2>{props.name}</h2></Card.Header>
-      <Card.Img src={props.image} />
+      <Card.Img src={props.image} alt={props.name} />
       <Card.Body>
         <Card.Text>
           {props.description}

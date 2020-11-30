@@ -3,9 +3,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import linkedin from "../../icons/linkedin-icon-128px.png"
-import github from "../../icons/GitHub-Mark-120px-plus.png";
-import resume from "../../icons/resume-document-icon.png";
+import linkedin from "../../pix/linkedin-icon-128px.png"
+import github from "../../pix/GitHub-Mark-120px-plus.png";
+import resume from "../../pix/resume-document-icon.png";
 import "./style.css";
 
 function Contact() {
