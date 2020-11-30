@@ -34,7 +34,7 @@ function Contact() {
         <Col sm={1}></Col>
         <Col sm={2}>
           <p className="git">GitHub</p>
-          <a href="https://github.com/LauraCole1900" target="_blank"><Image fluid src={github} alt="GitHub icon" className="icon" /></a>
+          <a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank"><Image fluid src={github} alt="GitHub icon" className="icon" /></a>
         </Col>
         <Col sm={6}>
           <p>email: <a href="mailto:lauracole1900@comcast.net">lauracole1900@comcast.net</a></p>
@@ -45,7 +45,7 @@ function Contact() {
         <Col sm={1}></Col>
         <Col sm={2}>
           <p className="git">Résumé</p>
-          <a href="https://drive.google.com/file/d/1gOy3CkufWH_k_Y9dVFQYfZc955bPCT25/view?usp=sharing" target="_blank"><Image fluid src={resume} alt="Résumé icon" className="icon" /></a>
+          <a href="https://drive.google.com/file/d/1gOy3CkufWH_k_Y9dVFQYfZc955bPCT25/view?usp=sharing" rel="noreferrer noopener" target="_blank"><Image fluid src={resume} alt="Résumé icon" className="icon" /></a>
         </Col>
       </Row>
     </Container >
