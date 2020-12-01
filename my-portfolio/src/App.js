@@ -12,8 +12,8 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div>
+      <Router>
         <Navigation />
         <Container fluid className="mycontainer">
           <Route exact path="/react-portfolio" component={Landing} />
@@ -27,8 +27,8 @@ function App() {
           <p>&nbsp;</p>
         </div>
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
