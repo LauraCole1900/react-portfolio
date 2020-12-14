@@ -19,6 +19,15 @@
   },
   {
     "id": 3,
+    "name": "Cool Cats Conference Planner",
+    "image": "react-portfolio/images/cccp-main-conferences-page.png",
+    "description": "Cool Cats Conference Planner was also built through the collaborative efforts of six students, including me. It is a MERN-stack application that allows users to share information about their own conferences and conventions as well as view and register for others' conferences and conventions.",
+    "repo": "https://github.com/LauraCole1900/conferencePlanner",
+    "deployed": "https://conference-planner.herokuapp.com/",
+    "deploy_button_label": "Cool Cats CP"
+  },
+  {
+    "id": 4,
     "name": "Weather Dashboard",
     "image": "react-portfolio/images/dashboard-searched.png",
     "description": "The Weather Dashboard uses jQuery and the OpenWeather API to provide weather information. The user types the city about which they're wanting weather information into the 'search' function, and the dashboard then provides current weather conditions and a five-day forecast for that city. While subsequent searches will replace the five-day forecast, the current conditions will still be visible at the bottom of the page, and all searched cities appear in the 'history' section for ease of repeating searches.",
@@ -27,7 +36,7 @@
     "deploy_button_label": "Weather Dashboard"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Team Profile Generator",
     "image": "react-portfolio/images/team-roster-screencap.png",
     "description": "The Team Profile Generator is a CLI-based application that takes the user through a series of prompts to generate an html document containing names, roles, emails, and ids of all members of a software-development team.",
@@ -36,7 +45,7 @@
     "deploy_button_label": "Walkthrough video"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Employee Management System",
     "image": "react-portfolio/images/ems-walkthrough.gif",
     "description": "This is a CLI employee management system application using Inquirer.js and MySQL. This system allows the user to add employees, departments, and roles; view employees (all, by department, and by role), departments, and roles; update employee roles; and delete employees.",
@@ -45,12 +54,21 @@
     "deploy_button_label": "Walkthrough video"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Employee Directory",
     "image": "react-portfolio/images/employee-directory-screenshot.png",
     "description": "This application uses React to generate and manipulate a table of employee information. The user can click on any column header to sort the table by that column, or type into the input box to search for an employee by last name. Reloading the page following a name search will reset the table to show all employees.",
     "repo": "https://github.com/LauraCole1900/reactEmployeeDirectory",
     "deployed": "https://lauracole1900.github.io/reactEmployeeDirectory/",
     "deploy_button_label": "Employee Directory"
+  },
+  {
+    "id": 8,
+    "name": "Happy Birthday",
+    "image": "react-portfolio/images/happy-birthday-screenshot.png",
+    "description": "This is a quick little React-based birthday card using the react-reveal library and the react-confetti and react-bootstrap Node packages.",
+    "repo": "https://github.com/LauraCole1900/happy-birthday-gary",
+    "deployed": "https://#",
+    "deploy_button_label": "Not Deployed"
   }
 ]

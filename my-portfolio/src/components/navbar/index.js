@@ -4,9 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./style.css";
 
-
-// https://codepen.io/BrunoIF/pen/oNjNepa - transparent React navbar
-
 const Navigation = () => {
   const location = useLocation();
 
@@ -39,4 +36,3 @@ const Navigation = () => {
 }
 
 export default Navigation;
-// ReactDOM.render(<Navigation />, document.getElementById('root'))
