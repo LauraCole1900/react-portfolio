@@ -9,7 +9,17 @@ h1 {
   font-family: 'Fredericka the Great', cursive;
 }
 
+h3 {
+  font-size: 24px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
 p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
 }

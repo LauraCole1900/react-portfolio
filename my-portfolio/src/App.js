@@ -6,7 +6,9 @@ import Navigation from "./components/navbar";
 import Home from "./components/pages/home.js";
 import Landing from "./components/pages/landing.js";
 import About from "./components/pages/about.js";
-import Portfolio from "./components/pages/portfolio.js";
+import WebPortfolio from "./components/pages/webdev.js";
+import MartialArtist from "./components/pages/martialarts.js"
+import Musician from "./components/pages/music.js"
 import Contact from "./components/pages/contact.js";
 import Footer from "./components/footer";
 
@@ -18,7 +20,9 @@ function App() {
         <Container fluid className="mycontainer">
           <Route exact path="/react-portfolio" component={Landing} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/webdev" component={WebPortfolio} />
+          <Route exact path="/martial_artist" component={MartialArtist} />
+          <Route exact path="/musician" component={Musician} />
           <Route exact path="/contact" component={Contact} />
           <Route path="/" component={Home} />
         </Container>

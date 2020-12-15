@@ -4,7 +4,7 @@ import ProjectCard from "../project";
 import projects from "../../projects.json";
 import "./style.css"
 
-class Portfolio extends Component {
+class WebPortfolio extends Component {
   state = { projects };
 
   render() {
@@ -13,7 +13,7 @@ class Portfolio extends Component {
         <Row>
           <Col sm={1}></Col>
           <Col sm={10}>
-            <h1>Portfolio</h1>
+            <h1>Web Development Portfolio</h1>
           </Col>
         </Row>
         <Row>
@@ -38,4 +38,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default WebPortfolio;
