@@ -42,7 +42,7 @@ const MartialArtist = () => {
           <h3><Link src="http://www.koryu-uchinadi.com/">Koryu Uchinadi</Link></h3>
           <ul>
             <li>Years: 2018-present</li>
-            <li>Current instructors: T. Erik Angerhofer Shihan and Patrick McCarthy Hanshi</li>
+            <li>Current instructors: Patrick McCarthy Hanshi and T. Erik Angerhofer Shihan</li>
             <li>Highest rank attained: unclear, currently enrolled in KU Yudansha Fast Track program</li>
           </ul>
         </Col>
