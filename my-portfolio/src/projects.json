@@ -71,12 +71,12 @@
   },
   {
     "id": 8,
-    "name": "Happy Birthday",
-    "image": "react-portfolio/images/happy-birthday-screenshot.png",
-    "description": "This is a quick little React-based birthday card using the react-reveal library and the react-confetti and react-bootstrap Node packages.",
-    "tech": "Technologies used: Node.js, React.js, react-reveal, React Bootstrap, Flexbox, react-confetti",
-    "repo": "https://github.com/LauraCole1900/happy-birthday-gary",
-    "deployed": "https://#",
-    "deploy_button_label": "Not Deployed"
+    "name": "Happy Holidays 2020",
+    "image": "react-portfolio/images/holiday-ecard-2020-screenshot.png",
+    "description": "This is a simple little React-based 'Happy Holidays' animation using the Twinkling Night Sky animation by Sharna Hossain, react-simple-animate, react-bootstrap, react-confetti, and react-snowfall.",
+    "tech": "Technologies used: Node.js, React.js, react-simple-animate, React Bootstrap, Flexbox, react-confetti, react-snowfall",
+    "repo": "https://github.com/LauraCole1900/holiday-ecard-2020",
+    "deployed": "https://lauracole1900.github.io/holiday-ecard-2020/",
+    "deploy_button_label": "Happy Holidays"
   }
 ]
