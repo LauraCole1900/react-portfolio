@@ -13,5 +13,5 @@
   line-height: 1;
   position: relative;
   top: 50%;
-  transform: translateY(250%);
+  transform: translateY(30vh);
 }
