@@ -47,3 +47,10 @@ a {
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
 }
+
+.gitAlign {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 2.5em;
+}

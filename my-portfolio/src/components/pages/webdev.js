@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 import ProjectCard from "../project";
 import projects from "../../projects.json";
+import github from "../../pix/GitHub-Mark-120px-plus.png";
 import "./style.css"
 
 class WebPortfolio extends Component {
@@ -13,8 +14,19 @@ class WebPortfolio extends Component {
         <Row>
           <Col sm={1}></Col>
           <Col sm={10}>
-            <h1>Web Development Portfolio</h1>
-            <h3>Double-click any project for more information</h3>
+            <Row>
+              <Col sm={12}>
+                <h1>Web Development Portfolio</h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={10}>
+                <h3>Double-click any project for more information</h3>
+              </Col>
+              <Col sm={2}>
+                <p className="gitAlign">See more on &nbsp;<a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank"><Image fluid src={github} alt="GitHub icon" className="icon" /></a></p>
+              </Col>
+            </Row>
           </Col>
         </Row>
         <Row>
@@ -35,7 +47,7 @@ class WebPortfolio extends Component {
             ))}
           </Col>
         </Row>
-        </>
+      </>
     );
   }
 }
