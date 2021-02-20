@@ -29,6 +29,10 @@ li {
   font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  color: darkblue;
+}
+
 .mypic {
   max-width: 300px;
   padding-right: 1.25em;
@@ -37,4 +41,9 @@ li {
 .icon {
   max-width: 50px;
   margin-bottom: 2em;
+}
+
+.caption {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
 }

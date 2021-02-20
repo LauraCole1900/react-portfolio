@@ -16,7 +16,7 @@ const MartialArtist = () => {
       <Row>
         <Col sm={1}></Col>
         <Col sm={10}>
-          <h3><Link src="https://www.skski.net/">Kosho Ryu Kempo</Link></h3>
+          <h3><Link src="https://www.skski.net/" rel="noreferrer noopener" target="_blank">Kosho Ryu Kempo</Link></h3>
           <ul>
             <li>Years: 2014-present</li>
             <li>Current instructor: Jon Ludwig Shihan</li>
@@ -39,7 +39,7 @@ const MartialArtist = () => {
       <Row>
         <Col sm={1}></Col>
         <Col sm={10}>
-          <h3><Link src="http://www.koryu-uchinadi.com/">Koryu Uchinadi</Link></h3>
+          <h3><Link src="http://www.koryu-uchinadi.com/" rel="noreferrer noopener" target="_blank">Koryu Uchinadi</Link></h3>
           <ul>
             <li>Years: 2018-present</li>
             <li>Current instructors: Patrick McCarthy Hanshi and T. Erik Angerhofer Shihan</li>
