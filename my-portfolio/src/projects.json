@@ -24,7 +24,7 @@
     "name": "Cool Cats Conference Planner",
     "image": "react-portfolio/images/cccp-main-conferences-page.png",
     "description": "Cool Cats Conference Planner was also built through the collaborative efforts of six students, including me. It is a MERN-stack application that allows users to share information about their own conferences and conventions as well as view and register for others' conferences and conventions.",
-    "tech": "Technologies used: MongoDB, Mongoose, Express, Node.js, React.js, Auth0.com, Bootstrap, React Bootstrap",
+    "tech": "Technologies used: MongoDB, Mongoose, Express, Node.js, React.js, Auth0.com, Bootstrap, React Bootstrap, JSX, CSS3, ES6",
     "repo": "https://github.com/LauraCole1900/conferencePlanner",
     "deployed": "https://conference-planner.herokuapp.com/",
     "deploy_button_label": "Cool Cats CP"
