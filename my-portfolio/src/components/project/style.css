@@ -1,29 +1,61 @@
 h2 {
-  font-size: 3em;
+  font-size: 30px;
   font-weight: lighter;
 }
 
+p {
+  font-size: 14px;
+}
+
 .project-card {
-  background-color: black;
-  color: #d5d5d5;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-self: center;
+  margin: 15px;
+  width: 350px;
+  height: 500px;
+  perspective: 1000px; 
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
   display: inline-table;
-  max-width: 325px;
-  border: 3px solid #031105;
-  border-radius: 10px;
-  text-align: center;
-  margin: 1em;
-  opacity: 0.8;
   font-family: 'Open Sans', sans-serif;
 }
 
-.card-title {
-  background-color: #031105;
-  color: #d5d5d5;
-  border-radius: 10px 10px 0 0;
-  padding: 20px 0 12px 0;
+.card-inner {
   position: relative;
-  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  transform-origin: center left;
+  transition: transform 1s ease-out;
+}
+
+.card-title {
+  justify-self: center;
+  color: white;
   font-family: 'Fredericka the Great', cursive;
+  margin-top: 5px;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /* translateZ sets the title to perspective*/
+  transform: translateZ(2rem);
+}
+
+.card-back {
+  transform: rotateY(.5turn);
+  background: #031105;
+  color: #d5d5d5;
+  margin: 0 auto;
+}
+
+.bgImage {
+  width: 97%;
 }
 
 .btn {

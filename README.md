@@ -5,7 +5,6 @@
 * [Description](#description)
 * [Links](#links)
 * [Screenshots](#screenshots)
-* [Installation](#installation)
 * [Usage](#usage)
 * [Technologies Used](#technologies)
 * [Tests](#tests)
@@ -36,10 +35,6 @@ Portfolio page:
 "Contact Me" page:
 ![Contact Me page](assets/rp-contact-page-screenshot.png)
 
-## Installation Instructions
-
-npm i
-
 ## Usage
 
 This project is intended to be used as my website and portfolio.
@@ -55,6 +50,8 @@ npm run test
 ## Credits
 
 Landing page animation code provided by [Orkun Tümer](https://codepen.io/tumerorkun) on CodePen
+
+Card animation code provided by [Daniela Schmayev](https://codepen.io/danishyma) on CodePen
 
 ## Contributing
 

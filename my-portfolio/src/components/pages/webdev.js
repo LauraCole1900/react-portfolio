@@ -14,6 +14,7 @@ class WebPortfolio extends Component {
           <Col sm={1}></Col>
           <Col sm={10}>
             <h1>Web Development Portfolio</h1>
+            <h3>Double-click any project for more information</h3>
           </Col>
         </Row>
         <Row>
@@ -26,6 +27,7 @@ class WebPortfolio extends Component {
                 name={project.name}
                 image={project.image}
                 description={project.description}
+                tech={project.tech}
                 repo={project.repo}
                 deployed={project.deployed}
                 deploy_button_label={project.deploy_button_label}

@@ -10,6 +10,7 @@ const Musician = () => {
         <Col sm={1}></Col>
         <Col sm={10}>
           <h1>Musician</h1>
+          <h2>Mezzo-Soprano</h2>
         </Col>
       </Row>
       <Row>
