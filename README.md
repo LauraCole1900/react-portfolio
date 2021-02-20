@@ -29,8 +29,11 @@ Landing page:
 "About" page:
 ![About page](assets/rp-about-page-screenshot.png)
 
-Portfolio page:
-![Portfolio page](assets/rp-portfolio-page-screenshot.png)
+Portfolio page with all project cards showing their fronts:
+![Portfolio page](assets/rp-portfolio-page-screenshot-all-fronts.png)
+
+Portfolio page with some project cards showing their backs:
+![Portfolio page](assets/rp-portfolio-page-screenshot-backs.png)
 
 "Contact Me" page:
 ![Contact Me page](assets/rp-contact-page-screenshot.png)
