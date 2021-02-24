@@ -49,7 +49,7 @@ const Musician = () => {
           </Row>
         </Col>
         <Col sm={3}>
-          <Image fluid src={choralepic} alt="Laura Cole" className="mypic" />
+          <Image fluid src={choralepic} alt="Laura Cole" className="choralepic" />
           <p className="caption">Picture by Susan McKenzie, used by permission</p>
         </Col>
       </Row>
