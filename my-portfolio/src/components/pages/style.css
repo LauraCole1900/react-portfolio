@@ -57,13 +57,18 @@ a {
 }
 
 .darkBg {
-  background: rgba(0, 0, 0, 0.20);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 
 .darkerBg {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 7px;
+}
+
+.ltBg {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
 }
 
 .flexCenter {

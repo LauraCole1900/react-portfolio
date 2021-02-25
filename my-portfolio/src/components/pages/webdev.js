@@ -70,18 +70,18 @@ class WebPortfolio extends Component {
         <Row>
           <Col sm={1}></Col>
           <Col sm={10}>
-            <Image fluid src={htmlicon} alt="HTML5" className="iconBig" />
-            <Image fluid src={cssicon} alt="CSS3" className="iconBig" />
+            <Image fluid src={htmlicon} alt="HTML5" className="iconBig ltBg" />
+            <Image fluid src={cssicon} alt="CSS3" className="iconBig ltBg" />
             <Image fluid src={bootstrapicon} alt="Bootstrap" className="iconBig darkerBg" />
             <Image fluid src={materializeicon} alt="Materialize" className="iconBig" />
-            <Image fluid src={jsicon} alt="JavaScript" className="iconBig" />
-            <Image fluid src={jqueryicon} alt="jQuery" className="iconBig" />
+            <Image fluid src={jsicon} alt="JavaScript" className="iconBig ltBg" />
+            <Image fluid src={jqueryicon} alt="jQuery" className="iconBig ltBg" />
             <Image fluid src={nodejsicon} alt="Node.js" className="iconBig darkBg" />
             <Image fluid src={npmicon} alt="NPM" className="iconBig" />
             <Image fluid src={expressjsicon} alt="Express" className="iconBig darkerBg" />
             <Image fluid src={mysqlicon} alt="MySQL" className="iconBig darkBg" />
             <Image fluid src={mongodbicon} alt="MongoDB" className="iconBig darkBg" />
-            <Image fluid src={githubicon} alt="GitHub" className="iconBig" />
+            <Image fluid src={githubicon} alt="GitHub" className="iconBig ltBg" />
             <Image fluid src={reacticon} alt="React" className="iconBig" />
             <Image fluid src={reactbootstrap} alt="React Bootstrap" className="iconBig" />
             <Image fluid src={mernicon} alt="MERN" className="iconBig" />
