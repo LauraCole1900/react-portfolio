@@ -1,28 +1,20 @@
 [
   {
     "id": 1,
-    "name": "Taco Party",
-    "image": "react-portfolio/images/taco-party-homepage-square.png",
-    "description": "Taco Party was built through the collaborative efforts of six students, including me. It uses the Materialize framework for layout and mobile-responsiveness, JavaScript/jQuery, and two third-party APIs to provide a resource for users to plan their taco party. Users can generate random taco- or salsa-based recipes, visit the 'Taco' and 'Salsa' pages to view all available recipes, and visit the 'Beverages' pages to browse recipes for adult mixed drinks.",
-    "tech": "Technologies used: HTML5, CSS3, JavaScript, 3rd-party APIs, Materialize",
-    "repo": "https://github.com/LauraCole1900/tacoParty",
-    "deployed": "https://lauracole1900.github.io/tacoParty/",
-    "deploy_button_label": "Taco Party"
+    "name": "Bristlecone Conference Management System",
+    "image": "react-portfolio/images/bristlecone-light.png",
+    "subtitle": "In Development",
+    "description": "Bristlecone Conference Management System is an extensive, in-development build-out adapted from the Cool Cats Conference Planner code base. Like Cool Cats, it is a MERN-stack application that allows users to share information about and accept session and presenter proposals for their own conferences and conventions; subtitlemit session proposals to, register to attend or exhibit at, and view others' conferences and conventions.",
+    "tech": "Technologies used: MongoDB, Mongoose, Express, Node.js, React.js, Auth0.com, Bootstrap, React Bootstrap, JSX, CSS3, ES6, AWS (future development)",
+    "repo": "https://github.com/LauraCole1900/bcms",
+    "deployed": "https://#",
+    "deploy_button_label": "In Development, Not Deployed"
   },
   {
     "id": 2,
-    "name": "Couch Surfers Travel Blog",
-    "image": "react-portfolio/images/blog-page-with-posts.png",
-    "description": "Couch Surfers Travel Blog was likewise built through the collaborative efforts of six students, including me. It uses jQuery, Express.js, Express Handlebars, Sequelize, and Passport to create a semi-public (all posts visible, but only to those who are signed in) miniblog (500 characters or less) site for travelers to share with each other their travel tips, tricks, and experiences. It includes a Resources page for those looking for a place to start their adventures.",
-    "tech": "Technologies used: Node.js, Express, Express Handlebars, jQuery, MySQL, Sequelize, Passport, Particles.js, Bootstrap",
-    "repo": "https://github.com/LauraCole1900/couchSurfers",
-    "deployed": "https://dry-scrubland-38194.herokuapp.com/",
-    "deploy_button_label": "Couch Surfers"
-  },
-  {
-    "id": 3,
     "name": "Cool Cats Conference Planner",
     "image": "react-portfolio/images/cccp-main-conferences-page.png",
+    "subtitle": "",
     "description": "Cool Cats Conference Planner was also built through the collaborative efforts of six students, including me. It is a MERN-stack application that allows users to share information about their own conferences and conventions as well as view and register for others' conferences and conventions.",
     "tech": "Technologies used: MongoDB, Mongoose, Express, Node.js, React.js, Auth0.com, Bootstrap, React Bootstrap, JSX, CSS3, ES6",
     "repo": "https://github.com/LauraCole1900/conferencePlanner",
@@ -30,19 +22,43 @@
     "deploy_button_label": "Cool Cats CP"
   },
   {
+    "id": 3,
+    "name": "Couch Surfers Travel Blog",
+    "image": "react-portfolio/images/blog-page-with-posts.png",
+    "subtitle": "",
+    "description": "Couch Surfers Travel Blog was likewise built through the collaborative efforts of six students, including me. It uses jQuery, Express.js, Express Handlebars, Sequelize, and Passport to create a semi-public (all posts visible, but only to those who are signed in) miniblog (500 characters or less) site for travelers to share with each other their travel tips, tricks, and experiences. It includes a Resources page for those looking for a place to start their adventures.",
+    "tech": "Technologies used: Node.js, Express, Express Handlebars, jQuery, MySQL, Sequelize, Passport, Particles.js, Bootstrap",
+    "repo": "https://github.com/LauraCole1900/couchSurfers",
+    "deployed": "https://dry-scrubland-38194.herokuapp.com/",
+    "deploy_button_label": "Couch Surfers"
+  },
+  {
     "id": 4,
+    "name": "Taco Party",
+    "image": "react-portfolio/images/taco-party-homepage-square.png",
+    "subtitle": "",
+    "description": "Taco Party was built through the collaborative efforts of six students, including me. It uses the Materialize framework for layout and mobile-responsiveness, JavaScript/jQuery, and two third-party APIs to provide a resource for users to plan their taco party. Users can generate random taco- or salsa-based recipes, visit the 'Taco' and 'Salsa' pages to view all available recipes, and visit the 'Beverages' pages to browse recipes for adult mixed drinks.",
+    "tech": "Technologies used: HTML5, CSS3, JavaScript, 3rd-party APIs, Materialize",
+    "repo": "https://github.com/LauraCole1900/tacoParty",
+    "deployed": "https://lauracole1900.github.io/tacoParty/",
+    "deploy_button_label": "Taco Party"
+  },
+  {
+    "id": 5,
     "name": "Weather Dashboard",
     "image": "react-portfolio/images/dashboard-searched.png",
-    "description": "The Weather Dashboard uses jQuery and the OpenWeather API to provide weather information. The user types the city about which they're wanting weather information into the 'search' function, and the dashboard then provides current weather conditions and a five-day forecast for that city. While subsequent searches will replace the five-day forecast, the current conditions will still be visible at the bottom of the page, and all searched cities appear in the 'history' section for ease of repeating searches.",
+    "subtitle": "",
+    "description": "The Weather Dashboard uses jQuery and the OpenWeather API to provide weather information. The user types the city about which they're wanting weather information into the 'search' function, and the dashboard then provides current weather conditions and a five-day forecast for that city. While subtitlesequent searches will replace the five-day forecast, the current conditions will still be visible at the bottom of the page, and all searched cities appear in the 'history' section for ease of repeating searches.",
     "tech": "Technologies used: HTML5, CSS3, Bootstrap, local storage, jQuery, Day.js, OpenWeather API",
     "repo": "https://github.com/LauraCole1900/apiWeatherDashboard",
     "deployed": "https://lauracole1900.github.io/apiWeatherDashboard/",
     "deploy_button_label": "Weather Dashboard"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Team Profile Generator",
     "image": "react-portfolio/images/team-roster-screencap.png",
+    "subtitle": "",
     "description": "The Team Profile Generator is a CLI-based application that takes the user through a series of prompts to generate an html document containing names, roles, emails, and ids of all members of a software-development team.",
     "tech": "Technologies used: Node.js, Inquirer, Jest",
     "repo": "https://github.com/LauraCole1900/teamProfileGenerator",
@@ -50,9 +66,10 @@
     "deploy_button_label": "Walkthrough video"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Employee Management System",
     "image": "react-portfolio/images/ems-walkthrough.gif",
+    "subtitle": "",
     "description": "This is a CLI employee management system application using Inquirer.js and MySQL. This system allows the user to add employees, departments, and roles; view employees (all, by department, and by role), departments, and roles; update employee roles; and delete employees.",
     "tech": "Technologies used: Node.js, Inquirer, Express, MySQL, console.table npm package",
     "repo": "https://github.com/LauraCole1900/reactEmployeeDirectory",
@@ -60,9 +77,10 @@
     "deploy_button_label": "Walkthrough video"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Employee Directory",
     "image": "react-portfolio/images/employee-directory-screenshot.png",
+    "subtitle": "",
     "description": "This application uses React to generate and manipulate a table of employee information. The user can click on any column header to sort the table by that column, or type into the input box to search for an employee by last name. Reloading the page following a name search will reset the table to show all employees.",
     "tech": "Technologies used: Bootstrap, Node.js, React.js",
     "repo": "https://github.com/LauraCole1900/reactEmployeeDirectory",
@@ -70,9 +88,10 @@
     "deploy_button_label": "Employee Directory"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Happy Holidays 2020",
     "image": "react-portfolio/images/holiday-ecard-2020-screenshot.png",
+    "subtitle": "",
     "description": "This is a simple little React-based 'Happy Holidays' animation using the Twinkling Night Sky animation by Sharna Hossain, react-simple-animate, react-bootstrap, react-confetti, and react-snowfall.",
     "tech": "Technologies used: Node.js, React.js, react-simple-animate, React Bootstrap, Flexbox, react-confetti, react-snowfall",
     "repo": "https://github.com/LauraCole1900/holiday-ecard-2020",

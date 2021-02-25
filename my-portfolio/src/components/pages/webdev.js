@@ -15,6 +15,7 @@ import expressjsicon from "../../pix/expressjs-icon.png";
 import mysqlicon from "../../pix/mysql-icon.png";
 import mongodbicon from "../../pix/mongodb-icon.png";
 import reacticon from "../../pix/react-icon.png";
+import reactbootstrap from "../../pix/react-bootstrap-icon.png";
 import mernicon from "../../pix/MERN-icon.png";
 import githubicon from "../../pix/GitHub-Mark-120px-plus.png"
 import "./style.css"
@@ -52,6 +53,7 @@ class WebPortfolio extends Component {
                 key={project.id}
                 name={project.name}
                 image={project.image}
+                subtitle={project.subtitle}
                 description={project.description}
                 tech={project.tech}
                 repo={project.repo}
@@ -63,7 +65,7 @@ class WebPortfolio extends Component {
         </Row>
         <Row className="topMargin">
           <Col sm={1}></Col>
-          <Col sm={10}><h1>Technical Skills</h1></Col>
+          <Col sm={10}><h1 className="outline">Technical Skills</h1></Col>
         </Row>
         <Row>
           <Col sm={1}></Col>
@@ -81,6 +83,7 @@ class WebPortfolio extends Component {
             <Image fluid src={mongodbicon} alt="MongoDB" className="iconBig darkBg" />
             <Image fluid src={githubicon} alt="GitHub" className="iconBig" />
             <Image fluid src={reacticon} alt="React" className="iconBig" />
+            <Image fluid src={reactbootstrap} alt="React Bootstrap" className="iconBig" />
             <Image fluid src={mernicon} alt="MERN" className="iconBig" />
           </Col>
           <Col sm={1}></Col>

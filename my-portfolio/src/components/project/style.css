@@ -12,12 +12,17 @@ p {
   align-self: center;
   margin: 15px;
   width: 350px;
-  height: 500px;
+  height: 550px;
   perspective: 1000px; 
   cursor: pointer;
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
   display: inline-table;
   font-family: 'Open Sans', sans-serif;
+}
+
+.dev {
+  margin: 10px;
+  background-color: darkgreen;
 }
 
 .card-inner {

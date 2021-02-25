@@ -32,13 +32,14 @@ function ProjectCard(props) {
         <div className="card-front">
           <Card.Header className="card-title"><h2>{props.name}</h2></Card.Header>
           <Card.Img src={props.image} alt={props.name} className="bgImage" />
+          <Card.Title><h2 className="dev">{props.subtitle}</h2></Card.Title>
         </div>
         <div className="card-back">
           <Card.Body>
+            <Card.Title><h2>{props.name}</h2></Card.Title>
             <Card.Text>
-              <h2>{props.name}</h2>
-              <p>{props.description}</p><br />
-              <p>{props.tech}</p>
+              {props.description}<br /><br />
+              {props.tech}
             </Card.Text>
             <div className="btndiv">
               <Button className="btn" href={props.deployed} rel="noreferrer noopener" target="_blank">{props.deploy_button_label}</Button>
