@@ -27,7 +27,7 @@
     "image": "react-portfolio/images/blog-page-with-posts.png",
     "subtitle": "",
     "description": "Couch Surfers Travel Blog was likewise built through the collaborative efforts of six students, including me. It uses jQuery, Express.js, Express Handlebars, Sequelize, and Passport to create a semi-public (all posts visible, but only to those who are signed in) miniblog (500 characters or less) site for travelers to share with each other their travel tips, tricks, and experiences. It includes a Resources page for those looking for a place to start their adventures.",
-    "tech": "Technologies used: Node.js, Express, Express Handlebars, jQuery, MySQL, Sequelize, Passport, Particles.js, Bootstrap",
+    "tech": "Technologies used: HTML5, CSS3, Bootstrap, Node.js, Express, Express Handlebars, jQuery, MySQL, Sequelize, Passport, Particles.js, Bootstrap",
     "repo": "https://github.com/LauraCole1900/couchSurfers",
     "deployed": "https://dry-scrubland-38194.herokuapp.com/",
     "deploy_button_label": "Couch Surfers"
