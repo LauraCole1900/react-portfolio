@@ -4,7 +4,7 @@
     "name": "Bristlecone Conference Management System",
     "image": "react-portfolio/images/bristlecone-light.png",
     "subtitle": "In Development",
-    "description": "Bristlecone Conference Management System is an extensive, in-development build-out adapted from the Cool Cats Conference Planner code base. Like Cool Cats, it is a MERN-stack application that allows users to share information about and accept session and presenter proposals for their own conferences and conventions; subtitlemit session proposals to, register to attend or exhibit at, and view others' conferences and conventions.",
+    "description": "Bristlecone Conference Management System is an extensive, in-development build-out adapted from the Cool Cats Conference Planner code base. Like Cool Cats, it is a MERN-stack application that allows users to share information about and accept session and presenter proposals for their own conferences and conventions; and to submit session proposals to, register to attend or exhibit at, and view others' conferences and conventions.",
     "tech": "Technologies used: MongoDB, Mongoose, Express, Node.js, React.js, Auth0.com, Bootstrap, React Bootstrap, JSX, CSS3, ES6, AWS (future development)",
     "repo": "https://github.com/LauraCole1900/bcms",
     "deployed": "https://#",
