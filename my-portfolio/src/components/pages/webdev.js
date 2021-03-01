@@ -7,7 +7,7 @@ import htmlicon from "../../pix/html5-icon.png";
 import cssicon from "../../pix/css3-icon.png";
 import bootstrapicon from "../../pix/bootstrap-icon.png";
 import materializeicon from "../../pix/materialize-icon.png"
-import jsicon from "../../pix/js-icon.png";
+import jsicon from "../../pix/js-icon-2.png";
 import jqueryicon from "../../pix/jquery-icon.png";
 import nodejsicon from "../../pix/nodejs-icon.png";
 import npmicon from "../../pix/npm-icon.png";
