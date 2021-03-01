@@ -74,7 +74,7 @@ class WebPortfolio extends Component {
             <Image fluid src={cssicon} alt="CSS3" className="iconBig ltBg" />
             <Image fluid src={bootstrapicon} alt="Bootstrap" className="iconBig darkerBg" />
             <Image fluid src={materializeicon} alt="Materialize" className="iconBig" />
-            <Image fluid src={jsicon} alt="JavaScript" className="iconBig ltBg" />
+            <Image fluid src={jsicon} alt="JavaScript" className="iconBig" />
             <Image fluid src={jqueryicon} alt="jQuery" className="iconBig ltBg" />
             <Image fluid src={nodejsicon} alt="Node.js" className="iconBig darkBg" />
             <Image fluid src={npmicon} alt="NPM" className="iconBig" />
