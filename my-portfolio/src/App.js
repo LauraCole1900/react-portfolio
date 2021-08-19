@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navigation from "./components/navbar";
 import { About, Contact, Landing, MartialArtist, Musician, WebPortfolio } from "./components/pages";
