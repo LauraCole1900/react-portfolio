@@ -1,48 +1,80 @@
+:root {
+  --headerFont: 'Fredericka the Great', cursive;
+  --bodyFont: 'Open Sans', sans-serif;
+  --dkBlue: #00008b;
+  --ltBlue: #c7dbf3;
+  --translucentBgDk: rgba(0, 0, 0, 0.2);
+  --translucentBgDker: rgba(0, 0, 0, 0.5);
+  --translucentBgLt: rgba(255, 255, 255, 0.25);
+}
+
 body {
   background-image: url("../../pix/meeker-n-longs.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
+a {
+  color: var(--dkBlue);
+}
+
 h1 {
   font-size: 42px;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: var(--headerFont);
 }
 
 h2 {
   font-size: 36px;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: var(--headerFont);
 }
 
 h3 {
   font-size: 24px;
-  font-family: 'Fredericka the Great', cursive;
-}
-
-p {
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--headerFont);
 }
 
 li {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--bodyFont);
 }
 
-a {
-  color: darkblue;
-}
-
-.mypic {
-  max-width: 300px;
-  padding-right: 1.25em;
-  border-radius: 50%;
+p {
+  font-size: 16px;
+  font-family: var(--bodyFont);
 }
 
 .choralepic {
+  border-radius: 10%;
+}
+
+.mypic {
+  border-radius: 50%;
+}
+
+.mypic,
+.choralepic {
   max-width: 300px;
   padding-right: 1.25em;
-  border-radius: 10%;
+}
+
+.caption {
+  font-size: 12px;
+  font-family: var(--bodyFont);
+}
+
+.flexCenter {
+  justify-content: center;
+}
+
+.gitAlign {
+  justify-content: flex-end;
+  height: 2.5em;
+}
+
+.flexCenter,
+.gitAlign {
+  display: flex;
+  align-items: center;
 }
 
 .icon {
@@ -57,42 +89,24 @@ a {
 }
 
 .darkBg {
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--translucentBgDk);
   border-radius: 10px;
 }
 
 .darkerBg {
-  background: rgba(0, 0, 0, 0.5);
+  background: var(--translucentBgDker);
   border-radius: 7px;
 }
 
 .ltBg {
-  background: rgba(255, 255, 255, 0.25);
+  background: var(--translucentBgLt);
   border-radius: 10px;
 }
 
-.flexCenter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.outline {
+  text-shadow: -1px 1px 1px var(--ltBlue), 1px 1px 1px var(--ltBlue), 1px -1px 1px var(--ltBlue), -1px -1px 1px var(--ltBlue);
 }
 
 .topMargin {
   margin-top: 2.5em;
-}
-
-.caption {
-  font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.gitAlign {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  height: 2.5em;
-}
-
-.outline {
-  text-shadow: -1px 1px 1px #c7dbf3, 1px 1px 1px #c7dbf3, 1px -1px 1px #c7dbf3, -1px -1px 1px #c7dbf3;
 }

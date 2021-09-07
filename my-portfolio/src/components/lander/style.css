@@ -1,8 +1,11 @@
+:root {
+  --dkGreen: #031105;
+}
+
 .texts {
   font-family: 'Fredericka the Great', cursive;
   text-align: center;
-  color: #031105;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+  color: var(--dkGreen);
   background-position: 30% 20%;
   height: 100%;
   width: 100%;

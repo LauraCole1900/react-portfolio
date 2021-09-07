@@ -1,3 +1,19 @@
+:root {
+  --headerFont: 'Fredericka the Great', cursive;
+  --bodyFont: 'Open Sans', sans-serif;
+  --white: #ffffff;
+  --ltGray: #d5d5d5;
+  --medGray: #c5c5c5;
+  --dkGray: #a5a5a5;
+  --medGreen: #006400;
+  --dkGreen: #031105;
+  --dkBlue: #00008b;
+  --ltBlue: #c7dbf3;
+  --translucentBgDk: rgba(0, 0, 0, 0.2);
+  --translucentBgDker: rgba(0, 0, 0, 0.5);
+  --translucentBgLt: rgba(255, 255, 255, 0.25);
+}
+
 .mycontainer {
-  background-color: #d5d5d5;
+  background-color: var(--ltGray);
 }

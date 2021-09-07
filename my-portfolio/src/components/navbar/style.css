@@ -1,25 +1,32 @@
+:root {
+  --headerFont: 'Fredericka the Great', cursive;
+  --ltGray: #d5d5d5;
+  --medGray: #c5c5c5;
+  --translucentBgDker: rgba(0, 0, 0, 0.5);
+}
+
 .navbar {
-  background: rgba(0, 0, 0, 0.5);
+  background: var(--translucentBgDker);
   width: 100%;
   font-size: 16px;
 }
 
 .navlink {
   padding: 1em;
-  color: #d5d5d5;
-  font-family: 'Fredericka the Great', cursive;
+  color: var(--ltGray);
+  font-family: var(--headerFont);
 }
 
 .navlink:visited {
-  color: #c5c5c5;
+  color: var(--medGray);
 }
 
 .mylogo { 
-  color: #d5d5d5;
+  color: var(--ltGray);
   font-size: 24px;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: var(--headerFont);
 }
 
 .mylogo:visited {
-  color: #c5c5c5;
+  color: var(--medGray);
 }

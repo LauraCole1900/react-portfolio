@@ -1,10 +1,15 @@
+:root {
+  --ltGray: #d5d5d5;
+  --translucentBgDker: rgba(0, 0, 0, 0.5);
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  color: #d5d5d5;
+  background: var(--translucentBgDker);
+  color: var(--ltGray);
 }
 
 .icon {

@@ -1,3 +1,15 @@
+:root {
+  --headerFont: 'Fredericka the Great', cursive;
+  --bodyFont: 'Open Sans', sans-serif;
+  --white: #ffffff;
+  --ltGray: #d5d5d5;
+  --dkGray: #a5a5a5;
+  --medGreen: #006400;
+  --dkGreen: #031105;
+  --translucentBgDk: rgba(0, 0, 0, 0.2);
+  --translucentBgDker: rgba(0, 0, 0, 0.5);
+}
+
 h2 {
   font-size: 30px;
   font-weight: lighter;
@@ -7,22 +19,48 @@ p {
   font-size: 14px;
 }
 
+.bgImage {
+  width: 97%;
+}
+
+.btn {
+  background-color: var(--ltGray);
+  color: var(--dkGreen);
+  border: 3px solid var(--dkGreen);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.btn:hover {
+  color: var(--dkGray);
+  background-color: var(--dkGreen);
+  border: 3px solid var(--dkGray);
+}
+
+.btn:visited {
+  background-color: var(--ltGray);
+  color: var(--dkGreen);
+  border: 3px solid var(--dkGreen);
+}
+
+.dev {
+  margin: 10px;
+  background-color: var(--medGreen);
+}
+
 .project-card {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--translucentBgDker);
   align-self: center;
   margin: 15px;
   width: 350px;
   height: 550px;
   perspective: 1000px; 
   cursor: pointer;
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(5px 5px 5px var(--translucentBgDker));
   display: inline-table;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.dev {
-  margin: 10px;
-  background-color: darkgreen;
+  font-family: var(--bodyFont);
 }
 
 .card-inner {
@@ -30,7 +68,7 @@ p {
   width: 100%;
   height: 100%;
   text-align: center;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px var(--translucentBgDk);
   transform-style: preserve-3d;
   transform-origin: center left;
   transition: transform 1s ease-out;
@@ -38,8 +76,8 @@ p {
 
 .card-title {
   justify-self: center;
-  color: white;
-  font-family: 'Fredericka the Great', cursive;
+  color: var(--white);
+  font-family: var(--headerFont);
   margin-top: 5px;
 }
 
@@ -54,33 +92,7 @@ p {
 
 .card-back {
   transform: rotateY(.5turn);
-  background: #031105;
-  color: #d5d5d5;
+  background: var(--dkGreen);
+  color: var(--ltGray);
   margin: 0 auto;
-}
-
-.bgImage {
-  width: 97%;
-}
-
-.btn {
-  background-color: #d5d5d5;
-  color: #031105;
-  border: 3px solid #031105;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 3px;
-}
-
-.btn:hover {
-  color: #a5a5a5;
-  background-color: #031105;
-  border: 3px solid #a5a5a5;
-}
-
-.btn:visited {
-  background-color: #d5d5d5;
-  color: #031105;
-  border: 3px solid #031105;
 }
